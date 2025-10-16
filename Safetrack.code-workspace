@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.platformio"
+		},
+		{
+			"name": "safetrack",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
