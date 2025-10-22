@@ -9,7 +9,7 @@ struct GPSPacket {
 
 static uint8_t NODE_ID = 0x01; // Hardcoded
 
-inline void buildPacket(float latitude, float longitude, uint8_t *buffer) {
+inline void buildPacket(double latitude, double longitude, uint8_t *buffer) {
     GPSPacket packet;
     packet.node_id = NODE_ID;
     packet.lat = (int32_t)(latitude * 1e6);
